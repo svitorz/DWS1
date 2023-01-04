@@ -1,0 +1,32 @@
+.div-imagens-box {
+    justify-content: center;
+    display: flex;
+}
+
+.div-img{
+    margin: 1.4rem;
+}
+
+#display-image{
+    height: 200px;
+    width: 200px;
+}
+
+#container-imagem {
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#x-imagem {
+    height: 400px;
+    width: 400px;
+    display: none;
+    margin-left: 40%;
+}
+
+#botao-fechar {
+    width: 50px;
+    height: 50px;
+    display: none;
+}

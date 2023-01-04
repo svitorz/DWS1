@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+/*botao adicionar */
+
+.botao-adicionar {
+    padding: 1.5rem;
+    border-color: transparent;
+    border-radius: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(#2BD545, #25B03A);
+    color: #FFF;
+}
+
+    .botao-adicionar:hover {
+        border-color: black;
+        transition: 600ms;
+        background: #FFF;
+        color: #2BD545;
+    }
+/**/
+
+/* BOTAO REMOVER */
+.botao-remover {
+    padding: 1.5rem;
+    border-color: transparent;
+    border-radius: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(#EC3344, #C52B39);
+    color: #FFF;
+}
+
+    .botao-remover:hover {
+        border-color: black;
+        transition: 600ms;
+        background: #FFF;
+        color: #EC3344;
+    }
+ 
+    /* FLEX BOX */
+#botao-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#container p {
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* BOTAO REMOVER TUDO */
+.remover_tudo {
+    padding: 1.5rem;
+    border-color: transparent;
+    border-radius: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(#000000, #000000);
+    color: #FFF;
+}
+
+.remover_tudo:hover {
+    border-color: black;
+        transition: 600ms;
+        background: #FFF;
+        color: #000000;
+}

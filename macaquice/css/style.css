@@ -1,0 +1,26 @@
+img {
+   display: inline-block;
+   height: 30em;
+   width: 15em;
+   margin-left: 10em;
+   margin-right: 10em;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+#texto {
+    width: 15em;
+    height: 30em;
+    display: inline-block;
+}
+
+#caixa-esquerda {
+    width: 15em;
+    height: 30em;
+    display: inline-block;
+}
+

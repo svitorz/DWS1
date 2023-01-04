@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela com colspan</title>
+</head>
+<body>
+    <style>
+        table,td{
+            border:solid 1px red
+        }
+        td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+    </style>
+    <table>
+        <tr>
+            <td colspan="3">nomes</td>
+            
+        </tr>
+        <td>vitor</td>
+        <td>fabio</td>
+        <td>castro</td>
+    </table>
+    <br>
+    <table>
+        <tr style="background-color: blue">
+            <td rowspan="3">vitor</td>
+            <td>fabio</td>          
+        </tr>
+        <tr style="background-color: green">
+            <td>de castro</td>
+            
+            
+        </tr>
+        <tr>
+            <td>souza</td>
+        </tr>
+    </table>
+</body>
+</html>

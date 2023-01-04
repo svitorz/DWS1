@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function mouseencima(cor) {
+            console.log ("O mouse está encima") 
+            var body = document.querySelector("body")
+            body.style.backgroundColor = cor
+        }
+        function mousefora (cor) {
+            console.log ("O mouse está fora")
+            var body = document.querySelector("body")
+            body.style.backgroundColor = cor
+        }
+
+    </script>
+
+<!-- separação entre css e javascript -->  
+
+<style>
+    .quadrado_1 {
+        background-color: red;
+    }
+
+    .quadrado_2 {
+        background-color: green;
+    }
+
+    .quadrado_3 {
+        background-color: blue;
+    }
+    
+    .quadrado_4 {
+        background-color: yellow;
+    }
+    .quadrado_5 {
+        background-color: purple;
+    }
+    .flexbox div {
+        width: 250px;
+        height: 250px;
+        border: 5px solid black;
+    }
+    .flexbox {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+</style>
+
+</head>
+<body>
+    <h1> Praticando 1 - JavaScript </h1>
+    <div class="flexbox">
+        <div class="quadrado_1" onmouseover="mouseencima('red')" onmouseout="mousefora('white')"> </div> 
+        <div class="quadrado_2" onmouseover="mouseencima('green')" onmouseout="mousefora('white')"></div>
+        <div class="quadrado_3" onmouseover="mouseencima('blue')" onmouseout="mousefora('white')" ></div>
+        <div class="quadrado_4" onmouseover="mouseencima('yellow')" onmouseout="mousefora('white')"></div>
+        <div class="quadrado_5" onmouseover="mouseencima('purple')" onmouseout="mousefora('white')"></div>
+    </div>
+</body>
+</html>

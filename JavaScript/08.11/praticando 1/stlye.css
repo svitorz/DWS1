@@ -1,0 +1,13 @@
+    .flexbox {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+
+    .flexbox div {
+        width: 250px;
+        height: 250px;
+        border: 10px solid black;
+        text-align: center;
+        font-size: 50px;
+    }
