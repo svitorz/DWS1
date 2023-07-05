@@ -11,7 +11,7 @@ if(event.key == `c`) {
     var p = document.querySelector(".abc")
     p.style.textAlign="center"
 }
-if(event.key == `r`){
+if(event.key == 97){
     var p = document.querySelector(".abc")
     p.style.textAlign="right"
 }
